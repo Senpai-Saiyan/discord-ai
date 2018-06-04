@@ -1,0 +1,27 @@
+{
+  "name": "cleverbot.io-discord",
+  "version": "0.0.1",
+  "description": "Integrates discord with cleverbot",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "node tests/index.js",
+    "start": "node src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/meldsza/cleverbot.io-discord.git"
+  },
+  "author": "meldsza@gmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/meldsza/cleverbot.io-discord/issues"
+  },
+  "homepage": "https://github.com/meldsza/cleverbot.io-discord#readme",
+  "dependencies": {
+    "discord.js": "^11.3.2",
+    "request": "^2.87.0",
+    "request-promise-native": "^1.0.5",
+    "xml2js": "^0.4.19",
+    "express": "^4.16.3"
+  }
+}
